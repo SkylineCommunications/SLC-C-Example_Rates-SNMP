@@ -1,5 +1,6 @@
 using System;
 
+using Skyline.DataMiner.Library.Protocol.Snmp.Rates;
 using Skyline.DataMiner.Scripting;
 
 using static Skyline.DataMiner.Library.Protocol.Snmp.Rates.SnmpDeltaHelper;

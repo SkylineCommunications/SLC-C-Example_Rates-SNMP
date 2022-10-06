@@ -78,8 +78,8 @@
     <Compile Include="QAction_91.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Skyline.DataMiner.Library.Protocol">
-      <Version>1.2.1.2-gerritFDCP179881RateHelpersV2.12</Version>
+    <PackageReference Include="SLC.Lib.Protocol">
+      <Version>1.2.2.5</Version>
     </PackageReference>
     <PackageReference Include="StyleCop.Analyzers">
       <Version>1.1.118</Version>
