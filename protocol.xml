@@ -1440,16 +1440,17 @@ Note this whole logic is required instead of simply calculating rates on respons
 										</References>
 									</MinorVersion>
 									<MinorVersion id="8" basedOn="1.0.1.7">
-										<Date>2024-11-06</Date>
+										<Date>2024-11-29</Date>
 										<Provider>
 											<Author>SVD</Author>
 											<Company>Skyline Communications</Company>
 										</Provider>
 										<Changes>
-											<Change>Improved ProtocolExtensions.</Change>
+											<Change>Move to ProtocolExtensions NuGet package.</Change>
+											<Change>Fine-tuning Discreet Values to avoid true/false.</Change>
 										</Changes>
 										<References>
-											<TaskId>198352</TaskId>
+											<TaskId>255428</TaskId>
 										</References>
 									</MinorVersion>
 								</MinorVersions>
