@@ -996,7 +996,6 @@ Note this whole logic is required instead of simply calculating rates on respons
 	</Params>
 
 	<QActions>
-		<QAction id="1" name="Precompiled Code" encoding="csharp" options="precompile" />
 		<QAction id="2" name="After Startup" encoding="csharp" triggers="2" />
 
 		<QAction id="91" name="SysUptime Processors" encoding="csharp" triggers="91;93" entryPoint="SysUptime.ProcessTimeout;SysUptime.ProcessNewValue" />
