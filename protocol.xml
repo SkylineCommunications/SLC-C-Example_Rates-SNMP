@@ -797,7 +797,7 @@ Note this whole logic is required instead of simply calculating rates on respons
 			<Description>Streams</Description>
 			<Type>array</Type>
 			<ArrayOptions index="0">
-				<ColumnOption idx="0" pid="1001" type="snmp" options=""/>
+				<ColumnOption idx="0" pid="1001" type="snmp" options="" />
 				<ColumnOption idx="1" pid="1002" type="snmp" options="" />
 				<ColumnOption idx="2" pid="1003" type="snmp" options=";disableHeaderSum;disableHistogram;disableHeatmap" />
 				<ColumnOption idx="3" pid="1004" type="retrieved" options=";disableHeaderSum;disableHistogram;disableHeatmap" />
