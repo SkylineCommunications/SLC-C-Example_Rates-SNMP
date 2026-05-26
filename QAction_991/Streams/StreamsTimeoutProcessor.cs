@@ -35,11 +35,11 @@
 				string streamPK = Convert.ToString(getter.Keys[i]);
 				string serializedHelper = Convert.ToString(getter.OctetsRateData[i]);
 
-				SnmpRate32 snmpRate32Helper = SnmpRate32.FromJsonString(serializedHelper, minDelta: new TimeSpan(0, 0, 5), maxDelta: new TimeSpan(0, 10, 0));
-				snmpRate32Helper.BufferDelta(snmpDeltaHelper, streamPK);
+				SnmpRate64 snmpRate64Helper = SnmpRate64.FromJsonString(serializedHelper, minDelta: new TimeSpan(0, 0, 5), maxDelta: new TimeSpan(0, 10, 0));
+				snmpRate64Helper.BufferDelta(snmpDeltaHelper, streamPK);
 
 				setter.SetColumnsData[Parameter.Streams.tablePid].Add(streamPK);
-				setter.SetColumnsData[Parameter.Streams.Pid.streamsbitratedata].Add(snmpRate32Helper.ToJsonString());
+				setter.SetColumnsData[Parameter.Streams.Pid.streamsbitratedata].Add(snmpRate64Helper.ToJsonString());
 			}
 		}
 
